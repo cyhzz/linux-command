@@ -11,3 +11,4 @@ db -break
 VV -view diagram
 aaa -analysis
 afl -list functions
+q -quit current session
