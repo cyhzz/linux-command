@@ -9,6 +9,8 @@ r -run
 break *main
 set disassembly-flavor intel
 disassemble main
+del delete break points
+
 --------------------------------------
 radar2
 s -seek
