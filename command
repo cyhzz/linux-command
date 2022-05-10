@@ -20,6 +20,8 @@ file open new file
 buffer overflow redirct essense
 1.find the eip record position on stack 
 2.override eip's next addr, and value in it.
+#note: addr to override might not same every run, fuzzy by overflow with n nops+target addr, and locate estimate in the range
+#note: (;cat)| with shell code to exe shell, can exe shell inside it, get root permission.
 --------------------------------------
 binary
 xCC INT3 breakpoint trap
