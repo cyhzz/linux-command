@@ -1,3 +1,7 @@
+cloudbase install
+brew install node
+npm i -g @cloudbase/cli
+--------------------------------------
 sudo apt-get update
 sudo apt install build-essential
 git clone https://github.com/LiveOverflow/liveoverflow_youtube.git
