@@ -15,6 +15,18 @@ display display everytime
 info registers
 info breakpoints
 set var
+file open new file
+--------------------------------------
+buffer overflow redirct essense
+1.find the eip record position on stack 
+2.override eip's next addr, and value in it.
+--------------------------------------
+binary
+xCC INT3 breakpoint trap
+--------------------------------------
+shell
+| connect out put of program into input of next
+(;)group functions and exe seqentially
 --------------------------------------
 radar2
 s -seek
