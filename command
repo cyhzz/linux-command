@@ -23,6 +23,8 @@ buffer overflow redirct essense
 #note: addr to override might not same every run, fuzzy by overflow with n nops+target addr, and locate estimate in the range
 #note: (;cat)| with shell code to exe shell, can exe shell inside it, get root permission.
 --------------------------------------
+ret to known addr: override target addr by ret addr itself to bypass ret addr checking.
+--------------------------------------
 binary
 xCC INT3 breakpoint trap
 --------------------------------------
