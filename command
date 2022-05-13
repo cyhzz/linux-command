@@ -32,6 +32,9 @@ buffer overflow redirct essense
 2.override eip's next addr, and value in it.
 #note: addr to override might not same every run, fuzzy by overflow with n nops+target addr, and locate estimate in the range
 #note: (;cat)| with shell code to exe shell, can exe shell inside it, get root permission.
+format overflow essense
+use %n to write into the correct position(arg index) on stack with the correct value(arg length).
+%<stack index>$<padding>n
 --------------------------------------
 ret to known addr: override target addr by ret addr itself to bypass ret addr checking.
 --------------------------------------
