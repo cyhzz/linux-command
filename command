@@ -1,3 +1,9 @@
+--------------------------------------
+vim
+hjkl - navigation
+iIaA - editing
+xr -making changes while in cmd mode
+--------------------------------------
 cloudbase install
 brew install node
 npm i -g @cloudbase/cli
