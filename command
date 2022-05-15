@@ -1,10 +1,7 @@
+--------------------------------------
 protostar
 https://www.vulnhub.com/entry/exploit-exercises-protostar-v2,32/
 --------------------------------------
-vim
-hjkl - navigation
-iIaA - editing
-xr -making changes while in cmd mode
 --------------------------------------
 cloudbase install
 brew install node
