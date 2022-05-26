@@ -1,5 +1,16 @@
 pip install pyautogui
 pip install Pillow
+pip install keyboard
+pip install numpy
+pip install pywin32
+---------------------------------------------------------------
+pip install -U pyautoit
+click mouse without moving
+---------------------------------------------------------------
+https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyhook
+pip install <dir>
+pip install pyUserInput
+pip install pymouse
 
 ---------------------------------------------------------------
 import pyautogui
