@@ -1,0 +1,6 @@
+pip install pyautogui
+pip install Pillow
+
+---------------------------------------------------------------
+import pyautogui
+pyautogui.displayMousePosition()
