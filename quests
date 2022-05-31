@@ -1,0 +1,15 @@
+listen to:(4)
+  -level
+  -resource
+  -interaction
+  -other tasks A&B&C
+  
+  
+complete(after in-progress):(2)
+  -game state(ressouce number)
+  -actions
+
+rewards(3)
+  -xp
+  -items
+  -mechanics
