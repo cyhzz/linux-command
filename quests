@@ -1,3 +1,11 @@
+states:(6)
+  -pending
+  -unlocked
+  -in progress
+  -completed
+  -done
+  -canceled
+  
 listen to:(4)
   -level
   -resource
