@@ -6,6 +6,7 @@ https://www.vulnhub.com/entry/exploit-exercises-protostar-v2,32/
 cloudbase install
 brew install node
 npm i -g @cloudbase/cli
+tcb hosting deploy ./ static/index.js -e envId
 --------------------------------------
 sudo apt-get update
 sudo apt install build-essential
