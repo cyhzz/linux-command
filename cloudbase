@@ -1,1 +1,27 @@
+'use strict';
+const tcb = require("@cloudbase/node-sdk");
+const app = tcb.init({
+  env: "globebox-7g3jspme427a82fe"
+});
+const db = app.database();
+const collection = db.collection("players");
+
+exports.main = async (event, context) => {
+    console.log("Hello World");
+    console.log(event);
+    const json = JSON.parse(event.body);
+    const res = await collection.where({name: json.name}).count();
+    if(res.total==0)
+    {
+        await collection.add({
+            name: json.name,
+            pwd: json.pwd
+        });
+    }
+    else
+    {
+        return "fail";
+    }
+    return json;
+};
 
