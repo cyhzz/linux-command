@@ -1,0 +1,2 @@
+tcb hosting deploy . ./Catch -e [env_id]
+tcb hosting deploy [local path] [remote path] -e [env_id]
