@@ -10,4 +10,5 @@ fastlane beta
 issuse:
 add ip_provider "Yuheng Cai" in Appfile, to let it select from multi team ids.
 change env in .zprofile to UTF-8
+check fastlane env for environment var alter
 
