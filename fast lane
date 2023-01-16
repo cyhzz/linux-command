@@ -10,5 +10,6 @@ fastlane beta
 issuse:
 add itc_provider("Yuheng Cai") in Appfile, to let it select from multi team ids.
 change env in .zprofile to UTF-8
+refresh .zprofile with source ~/.zprofile
 check fastlane env for environment var alter
 
