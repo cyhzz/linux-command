@@ -6,3 +6,8 @@ ppath="/Users/cyhzzz/Desktop/LootBox/LootBox"
 mv /Users/cyhzzz/Desktop/fastlane /Users/cyhzzz/Desktop/LootBoxBuild
 cd LootBoxBuild/
 fastlane beta
+
+issuse:
+add ip_provider "Yuheng Cai" in Appfile, to let it select from multi team ids.
+change env in .zprofile to UTF-8
+
