@@ -1,0 +1,8 @@
+#!/bin/bash
+security unlock-keychain login.keychain
+mv /Users/cyhzzz/Desktop/LootBoxBuild/fastlane /Users/cyhzzz/Desktop
+ppath="/Users/cyhzzz/Desktop/LootBox/LootBox"
+/Applications/Unity/Hub/Editor/2020.3.15f2/Unity.app/Contents/MacOS/Unity -quit -batchmode -projectpath $ppath -executeMethod TerminalBuild.PerformiOSBuild 
+mv /Users/cyhzzz/Desktop/fastlane /Users/cyhzzz/Desktop/LootBoxBuild
+cd LootBoxBuild/
+fastlane beta
