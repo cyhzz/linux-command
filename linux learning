@@ -1,0 +1,5 @@
+Learning Writing Drives is an entry point to learn linux kernel.
+Device: char device is the one that can be accessed as a stream of bytes(like a file)
+Drive:usually implement: open,close,read,write behavivor for device.
+Module: made up by obj code, can be linked to kernel by insmod,and rmmod.
+usually classified by char module, block module and network module.
