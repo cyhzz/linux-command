@@ -9,7 +9,7 @@ using Debug = UnityEngine.Debug;
 public class PostBuildScript : MonoBehaviour
 {
     // #if UNITY_WEBGL
-    // [PostProcessBuildAttribute(1000)]
+    [PostProcessBuildAttribute(1000)]
     public static void OnPostprocessBuild(BuildTarget target, string pathToBuiltProject)
     {
         ProcessStartInfo psi = new ProcessStartInfo();
