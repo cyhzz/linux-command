@@ -1,4 +1,5 @@
 1.Unity webgl build pointerenter event可能有残留 触发两次
 2.Unity postbuildscript可能不会更新
 	解决方法：1.更改原本sh文件内容 加新名字新sh
-	解决方法：2.切换Build Target 更改script再进行测试
+	解决方法：2.切换Build Target 更改script再进行测试查看脚本是否生效
+	结果：发现真实文件为WXConvert文件里面的onfinsih func里面
