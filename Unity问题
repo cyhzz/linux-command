@@ -1,0 +1,2 @@
+1.Unity webgl build pointerenter event可能有残留 触发两次
+2.Unity postbuildscript可能不会更新
